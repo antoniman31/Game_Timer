@@ -185,7 +185,7 @@ est en T2, tôt exprès.
 | Champs IGDB renommés ou mal retenus | Haut | relire la doc avant T2, tester sur des réponses enregistrées |
 | Pas de date d'annonce dans IGDB | Moyen | repli sur les 30 derniers jours, décidé avant T5b |
 | Secret Twitch qui fuit | Haut | secret Cloudflare uniquement ; aucune route ne le renvoie ; aucun journal ne l'écrit |
-| `/igdb` utilisé par un tiers (la liste d'origines n'est pas une barrière hors navigateur) | Moyen | corps construit par le Worker, `q` borné, résultats limités ; quota IGDB 4 req/s |
+| `/igdb` utilisé par un tiers (la liste d'origines n'est pas une barrière hors navigateur) | Moyen | corps construit par le Worker, `q` borné, résultats limités ; quota IGDB à relever dans la doc (T2) |
 | Jeu invisible car hors de mes machines | Moyen | avertissement à l'ajout et choix de le suivre ; réaffichage dans les réglages |
 | Titres français mal trouvés par IGDB | Moyen | chercher aussi dans `alternative_names` ; repli RAWG |
 | Date IGDB en UTC lue comme la veille à Paris | Moyen | jours civils seulement, testés aux changements d'heure |
