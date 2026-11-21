@@ -23,3 +23,7 @@ Antoni a validé la spec et le plan. Conséquence de la règle « Versions et AP
 dans la doc officielle les versions des outils (T0) et les API de Cloudflare KV (T7), de Discord (T8) et des cron triggers
 (T9), en plus de celle d'IGDB (T2) ; aucun numéro de version écrit de mémoire. `main` créée à partir de la branche de
 session ; Antoni la met en branche par défaut.
+
+### Règles communes mises à jour — 21/11/2026
+
+Bloc commun de `CLAUDE.md` aligné sur `regles-communes` (BLOC.md, commit 98885d3), par la propagation automatique.
