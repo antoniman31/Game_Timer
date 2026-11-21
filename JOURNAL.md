@@ -12,3 +12,7 @@ avant son « ok » sur les deux.
 `CLAUDE.md` créé avec le bloc commun à tous les dépôts d'Antoni, recopié mot pour mot, et des règles propres tirées de la
 spec. `README.md`, `JOURNAL.md` et `RESTE-A-FAIRE.md` créés. C'est la partie « règles et suivi » de la tâche T0 du plan ;
 le reste de T0 (code du socle, CI, `LICENSE`) n'est pas commencé.
+
+### Règles communes : « Proposer d'abord » reformulée — 21/11/2026
+
+Formulation d'Antoni : un plan détaillé (étapes, fichiers touchés, approche) et des suggestions d'amélioration avant tout changement, puis l'« ok » ; pour une fonctionnalité ou un design, proposer sans coder, avec questions et visuel (maquette HTML sans canvas ou schéma ASCII). Le bloc est identique dans tous les dépôts et dans le skill `regles-communes-depots`.
