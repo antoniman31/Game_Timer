@@ -1,6 +1,6 @@
-# Spec — Game Timer (à valider)
+# Spec — Game Timer (validée)
 
-Statut : **proposition, rien n'est codé.** Écrite le 21/11/2026 avec Antoni, qui a tranché
+Statut : **validée par Antoni le 21/11/2026, rien n'est codé encore.** Écrite avec lui, qui a tranché
 chaque point par questions. Heures de Paris. Les aperçus visuels validés (liste, grille,
 recherche, réglages, messages Discord, compteurs, couleurs de console) sont des pages
 d'artefact privées de la session du 21/11 ; ce document en reprend les décisions.

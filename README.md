@@ -5,8 +5,8 @@ Xbox Series X|S et PC), avec un message Discord à 5 h 30, heure de Paris, quand
 
 ## État actuel
 
-**Rien n'est codé.** Le dépôt contient la spec (`tasks/spec.md`) et le plan de réalisation (`tasks/plan.md`), écrits le
-21/11/2026 et en attente de l'« ok » d'Antoni, plus les fichiers de règles et de suivi. Pas encore de site en ligne, pas de
+**Rien n'est codé.** Le dépôt contient la spec (`tasks/spec.md`) et le plan de réalisation (`tasks/plan.md`), écrits et
+validés par Antoni le 21/11/2026, plus les fichiers de règles et de suivi. Pas encore de site en ligne, pas de
 CI, pas de Worker.
 
 Prévu par la spec : une PWA sur GitHub Pages (`antoniman31.github.io/Game_Timer/`, React 19 et Vite), un Worker Cloudflare

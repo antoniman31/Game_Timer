@@ -1,7 +1,8 @@
 # Plan : Game Timer V1
 
-Décidé avec Antoni le 21/11/2026. La spec est dans `tasks/spec.md`. Rien n'est codé avant
-son « ok » sur la spec et sur ce plan.
+Décidé avec Antoni le 21/11/2026 ; spec et plan validés par lui le même jour, avec la règle
+« versions et API à jour dans la doc officielle ». La spec est dans `tasks/spec.md`. Le code
+démarre avec la PR 1.
 
 ## Décisions d'architecture
 
@@ -57,6 +58,9 @@ est en T2, tôt exprès.
 - [ ] `deploy.yml` : lint + tests + build à chaque PR, déploiement Pages sur `main` ; job
       « Interface » (`verif:ui`) sauté si la PR ne touche que des `.md`
 - [ ] `dependabot.yml` groupé ; actions épinglées par SHA
+- [ ] **versions à jour relevées dans la doc officielle** (React, Vite, oxlint, Wrangler,
+      Playwright, JetBrains Mono, actions GitHub) avant d'écrire `package.json` et les
+      workflows : aucun numéro de version écrit de mémoire, aucun code déprécié
 - Vérif : CI verte sur la PR, page vide servie sur Pages après fusion, pas d'éclair noir
   en thème clair
 - Fichiers : racine, `.github/`, `src/lib/theme.js`
@@ -147,9 +151,13 @@ est en T2, tôt exprès.
       l'export ; `PUT/GET /liste` sous l'empreinte SHA-256, plafond de taille ; machines
       cochées incluses
 - [ ] dépôt à chaque modification ; échec visible (pastille « non envoyée »)
+- [ ] **avant d'écrire** : relever dans la doc Cloudflare l'API KV et ses limites (taille d'une
+      valeur, cohérence entre lecture et écriture)
 - Fichiers : `worker/index.js`, `worker/test.mjs`, `src/lib/api.js`, `src/App.jsx`
 
 ### T8 — le message Discord, en pur (M)
+- [ ] **avant d'écrire** : relever dans la doc Discord les limites d'un webhook et d'un embed
+      (nombre, longueurs) et le format des balises de temps `<t:…:R>`
 - [ ] `aAnnoncer(listes, datesFraiches, etat, maintenant)` : jalons J-30 (dates exactes),
       J-7, J-1, Jour J ; reports et avancées ; regroupement anti-bruit ; machines cochées
       seulement ; chaque annonce une seule fois (clé d'état par jeu, console, jalon, date)
@@ -159,6 +167,8 @@ est en T2, tôt exprès.
 - Fichiers : `worker/discord.js`, `worker/test.mjs`
 
 ### T9 — le cron et l'essai TEST (S)
+- [ ] **avant d'écrire** : relire la doc Cloudflare sur les cron triggers (fuseau UTC, retards
+      possibles, syntaxe de la planification)
 - [ ] handler `scheduled` : n'agit qu'à 5 h 30 Paris, une fois par jour ; relit IGDB par lots
       de 50 ; met à jour l'état ; URL du webhook masquée dans les journaux
 - [ ] route `POST /essai` protégée par le code de liste : message marqué **TEST**, déclenché

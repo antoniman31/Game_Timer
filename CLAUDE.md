@@ -25,8 +25,8 @@ Décidées par Antoni le 16/11/2026, mises à jour le 21/11/2026. Les règles pr
 Compte à rebours des sorties de jeux vidéo, console par console, pour les seules machines cochées d'Antoni, avec un
 message Discord à 5 h 30 (heure de Paris) quand une sortie approche ou bouge. PWA sur GitHub Pages
 (`base: "/Game_Timer/"`), même stack que game-library (React 19, Vite, oxlint, `node --test`), pas d'APK. **Rien n'est
-codé** : la spec (`tasks/spec.md`) et le plan (`tasks/plan.md`) attendent l'« ok » d'Antoni, et aucune tâche ne commence
-avant. État : `README.md` ; ce qui reste : `RESTE-A-FAIRE.md` ; l'histoire : `JOURNAL.md`.
+codé** : la spec (`tasks/spec.md`) et le plan (`tasks/plan.md`) ont été validés par Antoni le 21/11/2026 ; le code démarre
+avec la PR 1 (le socle). État : `README.md` ; ce qui reste : `RESTE-A-FAIRE.md` ; l'histoire : `JOURNAL.md`.
 
 ## Commandes (prévues par la spec, aucune n'existe encore)
 

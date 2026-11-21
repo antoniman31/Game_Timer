@@ -2,7 +2,8 @@
 
 ## Par quoi reprendre
 
-1. **Antoni valide la spec et le plan** (`tasks/spec.md`, `tasks/plan.md`). Rien ne se code avant.
+1. **Antoni met `main` en branche par défaut** (GitHub, Settings > Branches) : la spec et le plan sont validés
+   (21/11/2026) et `main` est créée à partir de la branche de session. La PR 1 part de `main`, en brouillon.
 2. **T0, le socle** (PR 1) : `package.json`, Vite, oxlint, `node --test`, manifeste PWA, thème et jetons, `deploy.yml`,
    `dependabot.yml`, `LICENSE`. Les règles et les fichiers de suivi sont déjà faits.
 3. Puis les PR 2 à 6 du plan, dans l'ordre : recherche, liste, grille et fiche, Discord, mise en service.

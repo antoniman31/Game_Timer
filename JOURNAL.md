@@ -16,3 +16,10 @@ le reste de T0 (code du socle, CI, `LICENSE`) n'est pas commencé.
 ### Règles communes : « Proposer d'abord » reformulée — 21/11/2026
 
 Formulation d'Antoni : un plan détaillé (étapes, fichiers touchés, approche) et des suggestions d'amélioration avant tout changement, puis l'« ok » ; pour une fonctionnalité ou un design, proposer sans coder, avec questions et visuel (maquette HTML sans canvas ou schéma ASCII). Le bloc est identique dans tous les dépôts et dans le skill `regles-communes-depots`.
+
+### Spec et plan validés — 21/11/2026
+
+Antoni a validé la spec et le plan. Conséquence de la règle « Versions et API » du bloc commun : le plan impose de relever
+dans la doc officielle les versions des outils (T0) et les API de Cloudflare KV (T7), de Discord (T8) et des cron triggers
+(T9), en plus de celle d'IGDB (T2) ; aucun numéro de version écrit de mémoire. `main` créée à partir de la branche de
+session ; Antoni la met en branche par défaut.
