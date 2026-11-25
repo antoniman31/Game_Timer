@@ -35,3 +35,7 @@ Bloc commun de `CLAUDE.md` aligné sur `regles-communes` (BLOC.md, commit 400626
 ### Règles communes mises à jour — 21/11/2026
 
 Bloc commun de `CLAUDE.md` aligné sur `regles-communes` (BLOC.md, commit 2005adb), par la propagation automatique.
+
+### Règles communes mises à jour — 25/11/2026
+
+Bloc commun de `CLAUDE.md` aligné sur `regles-communes` (BLOC.md, commit 864f26d), par la propagation automatique.
